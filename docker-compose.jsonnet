@@ -37,7 +37,7 @@
 
   // Local path to save segments to. Full path must already exist. Cannot contain ':'.
   // On OSX you need to change this to /private/var/lib/wubloader
-  segments_path:: "/var/lib/wubloader/",
+  segments_path:: "/srv/wubloader/",
 
   // Local path to save database to. Full path must already exist. Cannot
   // contain ':'. If this directory is non-empty, the database will start with
@@ -56,7 +56,7 @@
     thrimshim: 8004,
     sheetsync: 8005,
     segment_coverage: 8006,
-    nginx: 80,
+    nginx: 8080,
     nginx_ssl: 443,
     postgres: 5432,
   },
